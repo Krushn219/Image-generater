@@ -7,7 +7,8 @@
     "start": "nodemon --max-old-space-size=4096",
     "build": "tsc",
     "start:prod": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deployVercel": "push-dir --dir=dist --branch=vercel --cleanup"
   },
   "author": "",
   "license": "ISC",
